@@ -1,0 +1,36 @@
+# ===== Python / Django =====
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Django
+*.log
+media/
+staticfiles/
+
+# Variables de entorno
+.env
+.env.local
+
+# ===== React / Vite (dentro de react+django/) =====
+react+django/node_modules/
+react+django/dist/
+react+django/build/
+react+django/.env
+react+django/.env.local
+react+django/.env.*.local
+react+django/npm-debug.log*
+react+django/yarn-debug.log*
+react+django/yarn-error.log*
+react+django/pnpm-debug.log*
+react+django/.vite/
+
+# ===== Editores / SO =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
